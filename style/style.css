@@ -110,10 +110,14 @@ header{
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 10px;
     grid-column-gap: 10px;
+   
 }
 .team-people img{
     height: 170px;
     width: 170px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 .feature-detils{
     font-size: 12px;
@@ -145,10 +149,13 @@ header{
 }
 
 /*--------------------------------- Team ---------------- */
+
 .team-header{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
+
+
 
 .team-continer{
     margin-left: 100px;
@@ -377,5 +384,77 @@ header{
     .banner-btn{
         margin-left: 140px;
     }
+    .feature-continer{
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-description{
+        margin-top: 30px;
+    }
+    .feature-description button{
+        margin-bottom: 20px;
+    }
+    .team-header{
+        display:flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .team-continer{
+        display: flex;
+        margin-left: 10px;
+    }
+    .team-detil{
+        margin-left: 10px;
     
+    }
+    .service-detils{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap:30px;
+        grid-row-gap: 30px;
+         
+    }
+    .our-service{
+        margin-left: 80px;
+    }
+    .sponsers{
+        margin-left: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+        
+    }
+    .dhrubo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+        
+    }
+    .saport-detils{
+        margin-left: 60px;
+        
+    }
+    .sponser-name{
+        width: 350px;
+    }
+    .dhrubo2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left:50px;
+    }
+    .footer-continer{
+        width: 450px;
+        margin-left:20px;
+
+    }
+    .serice-menu{
+        width: 180px;
+        height: 150px;
+    }
+   
+
+
+  
 }
