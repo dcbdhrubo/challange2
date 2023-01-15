@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #FCF3CF;
+}
+/* main{background-color: #ECF0F1;} */
+/*------------------ Nav Bar style -------------------------- */
+.nav-detils{
+    margin: 0 100px;
+    padding-top: 20px;
+    
+
+}
+.continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    display: none;
+}
+.nav-ber-hedder{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+.nav-home{
+    border: 1px solid;
+    border-radius: 10px 0;
+    padding: 5px;
+
+}
+ 
+.nav-home:hover{
+    background-color:#ffcccc ;
+    border: 1px solid;
+    border-radius: 10px 0;
+    padding: 5px;
+    align-items: center;
+     
+}
+
+/* ------------------Banner style start -------------------- */
+.banner-continer{
+   
+    margin: 0 100px;
+}
+.banner-detils{
+    align-items: center;
+    font-size: 20px;
+}
+.banner-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.banner-descriton{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.banner-image img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.banner-btn{
+    height: 32px;
+    width: 110px;
+    font-size: 11px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #C39BD3;
+    border: none;
+    border-radius: 5px;
+}
+ 
+/*------------------- Main design start ------------------ */
+ 
+ 
+    
+
+ 
+.feature-continer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+.feature-team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.team-people img{
+    height: 170px;
+    width: 170px;
+}
+.feature-detils{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #909497;
+    margin-bottom: 15px;
+}
+.feature-description{
+    margin-top: 100px;
+}
+.feature-description h2{
+    color: #778ca3;
+}
+.of-work{
+    color: black;
+}
+.of-work2{
+    color: #F4D03F;
+}
+.feature-description button{
+    height: 30px;
+    width: 100px;
+    font-size: 11px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #C39BD3;
+    border: none;
+    margin-top: 10px;
+}
+
+/*--------------------------------- Team ---------------- */
+.team-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-continer{
+    margin-left: 100px;
+    background-color: #ECF0F1;
+    width: 370px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+ 
+.team-detils{
+    display: flex;
+}
+
+.height{
+    height: 60px;
+    width: 3px;
+    background-color: #F4D03F;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.team-description{
+    font-size: 10px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+.team-detil{
+     margin-left: 100px;
+    background-color:#ECF0F1 ;
+    width: 370px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.team-detil h4{
+    padding: 10px;
+}
+.team-detil p{
+    font-size: 10px;
+    padding-left:  10px;
+    padding-bottom: 5px;
+}
+.team-picture img{
+    height: 575px;
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 70px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.team-btn{
+    background-color: #F4D03F;
+    width: 170px;
+    height: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 485px;
+    margin-top: -60px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/*--------------- Our Service -------- */
+.our-service{
+    margin: 0 100px;
+    margin-top: 80px;
+}
+.our-service p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.service-detils{
+    margin: 0 100px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.serice-menu{
+    width: 150px;
+    height: 115px;
+    border: 1px solid #F4D03F;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3),
+    0px 0px 10px rgba(0, 0, 0, 0.3),
+    0px 0px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 3s;
+}
+.serice-menu:hover{
+    transform: rotate(360deg);
+}
+
+
+.serice-menu p{
+    font-size: 12px;
+}
+.serice-menu img{
+    margin-top: 10px;
+}
+
+
+
+/*---------------- service sponser ------------- */
+.sponser-header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.sponser-header p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+.sponsers{
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 10px;
+}
+.sponsers-name img{
+    margin-top: 20px;
+    height: 30px;
+ 
+
+} 
+
+/*----------------- Sponser detis ------------ */
+.saport-detils{
+    margin: 0 100px;
+    margin-top: 40px;
+}
+
+ .dhrubo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+     
+ }
+ 
+.sponser-name{
+    padding: 10px;
+    width: 240px;
+    height:200px;
+    background-color: #F2F3F4;
+    border-radius: 10px;
+    border: 1px solid #F4D03F ;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sponser-name img{
+    height: 30px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.sponser-name p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.dhrubo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+     
+}
+
+/* ---------------Footer section style -------------- */
+.footer-continer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+}
+.footer-titile{
+    height: 80px;
+    background-color: #FAE5D3;
+    width: 700px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/*----------- Responsiv design for Mobile ----------- */
+@media screen and (max-width:576px){
+    .nav-detils{
+        margin:0 40px;
+        margin-top: 20px;
+    }
+    .nav-logo img{
+        display: flex;
+    }
+    .nav-ber-hedder{
+        display: none;
+    }
+    .banner-continer{
+        margin: 0 40px;
+    }
+    .banner-descriton{
+        font-size: 12px;
+    }
+    .banner-btn{
+        margin-left: 140px;
+    }
+    
+}
